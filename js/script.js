@@ -687,14 +687,14 @@ if (t != undefined) {
 	 //create a the "iconic" url for the icon, from the mapbox api.
 	  var iconic;
 
-	  if (raw[i].properties.icon === "nuke") {iconic = '/sites/prod/files/atom.png';}
-	  else if (raw[i].properties.icon === "fact") {iconic = '/sites/prod/files/fact.png';}
-	  else if (raw[i].properties.icon === "grid") {iconic = '/sites/prod/files/grid.png';}
-	  else if (raw[i].properties.icon === "hydro") {iconic = '/sites/prod/files/hydro.png';}
-	  else if (raw[i].properties.icon === "pipe") {iconic = '/sites/prod/files/pipe.png';}
-	  else if (raw[i].properties.icon === "well") {iconic = '/sites/prod/files/well.png';}
-	  else if (raw[i].properties.icon === "solar") {iconic = '/sites/prod/files/solar.png';}
-	  else if (raw[i].properties.icon === "port") {iconic = '/sites/prod/files/port.png';}
+	  if (raw[i].properties.icon === "nuke") {iconic = 'https://energy.gov/sites/prod/files/atom.png';}
+	  else if (raw[i].properties.icon === "fact") {iconic = 'https://energy.gov/sites/prod/files/fact.png';}
+	  else if (raw[i].properties.icon === "grid") {iconic = 'https://energy.gov/sites/prod/files/grid.png';}
+	  else if (raw[i].properties.icon === "hydro") {iconic = 'https://energy.gov/sites/prod/files/hydro.png';}
+	  else if (raw[i].properties.icon === "pipe") {iconic = 'https://energy.gov/sites/prod/files/pipe.png';}
+	  else if (raw[i].properties.icon === "well") {iconic = 'https://energy.gov/sites/prod/files/well.png';}
+	  else if (raw[i].properties.icon === "solar") {iconic = 'https://energy.gov/sites/prod/files/solar.png';}
+	  else if (raw[i].properties.icon === "port") {iconic = 'https://energy.gov/sites/prod/files/port.png';}
 	  	;
 
 	  // Create custom popup content
